@@ -6,6 +6,16 @@
 using namespace std;
 
 int main() {
-    // initial commit for tetris
+    InitWindow(300, 600, "Tetris!");
+    SetTargetFPS(60);
+
+    // Game Loop:
+    while (WindowShouldClose() == false) {
+        BeginDrawing();
+
+        EndDrawing();
+    }
+
+    CloseWindow();
     
 }
