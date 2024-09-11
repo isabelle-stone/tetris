@@ -6,6 +6,7 @@
 using namespace std;
 
 int main() {
+    //Color darkBlue = 
     InitWindow(300, 600, "Tetris!");
     SetTargetFPS(60);
 
