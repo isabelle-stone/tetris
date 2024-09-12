@@ -2,17 +2,21 @@
 #include <raylib.h>
 #include <deque>
 #include <raymath.h>
+#include "grid.h"
 
-using namespace std;
+Color darkBlue = {44, 44, 127, 255};
 
 int main() {
-    //Color darkBlue = 
     InitWindow(300, 600, "Tetris!");
     SetTargetFPS(60);
+
+    Grid grid = Grid();
+    grid.print();
 
     // Game Loop:
     while (WindowShouldClose() == false) {
         BeginDrawing();
+        ClearBackground(darkBlue);
 
         EndDrawing();
     }
