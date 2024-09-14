@@ -43,9 +43,10 @@ std::vector<Color> Grid::getCellColors() {
 }
 
 void Grid::draw() {
-    for (int r = 0; r < numCols; r++) {
-        for (int c = 0; c < numRows; r++) {
+    for (int r = 0; r < numRows; r++) {
+        for (int c = 0; c < numCols; c++) {
             int cellValue = grid[r][c];
+            DrawRectangle(c * cellSize + 1, r * cellSize + 1, cellSize - 1, cellSize - 1, colors[cellValue]);
         }
     }
 }
