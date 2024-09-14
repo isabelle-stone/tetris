@@ -41,3 +41,11 @@ std::vector<Color> Grid::getCellColors() {
 
     return {darkGrey, green, red, orange, yellow, purple, cyan, blue};
 }
+
+void Grid::draw() {
+    for (int r = 0; r < numCols; r++) {
+        for (int c = 0; c < numRows; r++) {
+            int cellValue = grid[r][c];
+        }
+    }
+}
