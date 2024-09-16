@@ -24,7 +24,6 @@ void Grid::print() {
         }
         std::cout << std::endl;
     }
-
 }
 
 std::vector<Color> Grid::getCellColors() {
