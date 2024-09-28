@@ -1,7 +1,7 @@
 #include "block.h"
 #include "position.h"
 
-/* PENTOMINOES */
+/* PENTOMINOES... nvm */
 
 class LBlock :public Block {
 public:
