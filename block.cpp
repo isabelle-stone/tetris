@@ -1,4 +1,8 @@
 #include "block.h"
+#include "position.h"
+#include <raylib.h>
+
+
 
 Block::Block() {
     cellSize = 30;
@@ -9,7 +13,7 @@ Block::Block() {
 void Block::Draw() {
     std::vector<Position> tiles = cells[rotationState];
     for (Position item: tiles) {
-        DrawRectangle(item.column * cellSize + 1, item.row * cellSize - 1, cellSize - 1, colors[id])
+        DrawRectangle(item.column * cellSize + 1, item.row * cellSize - 1, cellSize - 1, cellSize - 1, colors[id]);
     }
     
 }

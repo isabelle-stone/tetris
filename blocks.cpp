@@ -13,7 +13,7 @@ public:
         cells[3] = {Position(0, 0), Position(0, 1), Position(1, 1), Position(2, 1)};
     }
 };
-
+/*
 class JBlock : public Block {
 public:
     id = 2;
@@ -32,7 +32,6 @@ public:
     cells[3] = {Position(0, 1), Position(1, 1), Position(2, 1), Position(3, 1)};
 };
 
-/*
 class OBlock : public Block {
 public:
     id = 4;
@@ -41,7 +40,7 @@ public:
     cells[2] = {Position(2, 0), Position(2, 1), Position(2, 2), Position(2, 3)};
     cells[3] = {Position(0, 1), Position(1, 1), Position(2, 1), Position(3, 1)};
 };
-*/
+
 
 class SBlock : public Block {
 public:
@@ -50,4 +49,5 @@ public:
     cells[1] = {Position(0, 1), Position(1, 1), Position(1, 2), Position(2, 2)};
     cells[2] = {Position(1, 1), Position(1, 2), Position(2, 0), Position(2, 1)};
     cells[3] = {Position(0, 1), Position(1, 0), Position(1, 1), Position(2, 1)};
-}
+};
+*/

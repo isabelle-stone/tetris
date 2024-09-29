@@ -2,7 +2,7 @@
 #include <raylib.h>
 #include "grid.h"
 #include "colors.h"
-#include "block.cpp"
+#include "blocks.cpp"
 
 int main() {
     InitWindow(300, 600, "Tetris!");
@@ -18,7 +18,7 @@ int main() {
         BeginDrawing();
         ClearBackground(darkBlue);
         grid.draw();
-        block.draw();
+        block.Draw();
 
         EndDrawing();
     }
