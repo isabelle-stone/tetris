@@ -10,7 +10,7 @@ int main() {
 
     Grid grid = Grid();
 
-    TBlock block = TBlock();
+    ZBlock block = ZBlock();
    
 
     // Game Loop:
