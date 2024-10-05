@@ -11,7 +11,6 @@ int main() {
     Grid grid = Grid();
 
     TBlock block = TBlock();
-    block.Move(4, 3);
    
 
     // Game Loop:
